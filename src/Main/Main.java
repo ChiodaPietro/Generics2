@@ -10,9 +10,10 @@ public class Main {
         System.out.println(i.getFirst());
         ArrayList<Object> ls= new ArrayList<Object>();
         ls.add(new Integer(23423));
-        ls.add(new String("String"));
-        ls.add(new Double(23.23));
-        ls.remove(1);
+        ls.add("String");
+        ls.add(23.23);
+        ls.remove("String");
+        //vi har set, get ,remove, add, indexOf,.....
         System.out.println(ls.get(1));
         System.out.println(i.getSecond());
         System.out.println(i.CheckEquality());
