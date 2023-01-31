@@ -1,17 +1,17 @@
 package Main;
 
-public class UnorderedCouple <Obj>{
-    private Obj  obj1;
-    private Obj obj2;
-    public UnorderedCouple(Obj obj1, Obj obj2){
+public class UnorderedCouple <Obj1,Obj2>{
+    private Obj1  obj1;
+    private Obj2 obj2;
+    public UnorderedCouple(Obj1 obj1, Obj2 obj2){
         this.obj1=obj1;
         this.obj2=obj2;
     }
 
-    public Obj getFirst() {
+    public Obj1  getFirst() {
         return obj1;
     }
-    public Obj getSecond(){
+    public Obj2 getSecond(){
         return obj2;
     }
     public boolean CheckEquality(){
